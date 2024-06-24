@@ -1,0 +1,23 @@
+*******************************************************************************
+
+In workshop 3, we will look at data tyes and what this means for our variables.
+We will look at primative data types and getting to know them, and later in the 
+course we will look at complex data types.
+
+*******************************************************************************
+
+___ TASK 1_____________________________________________________________________
+You are tasked to create a simple calculator. Ask the user for two numbers, 
+add them together and display the result on the screen.
+
+At first this task may seem simple, but when the user inputs anything using the
+prompt function, JavaScript will assume it is a string data type, even if it's
+a number.
+
+Have a look at this example to convert string to a number.
+
+let num1 = prompt("Enter a number");
+console.log (num1, " plus ", num1, " equals ", num1+num1);
+num1 = Number(num1);    //Number is a conversion function. Note the capital N
+console.log (num1, " plus ", num1, " equals ", num1+num1);
+
